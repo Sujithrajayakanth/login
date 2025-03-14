@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+import { useState } from 'react';
+import axios from 'axios';
+import './Signup.css';
+
+
+const Signup = () => {
+    // const [formData, setFormData] = useState({ name: '', email: '', password: '' });
+    const [username, setUsername ] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+//     const handleSubmit = async(e) => {
+// e.preventDefault();
+// console.log(username, email, password);
+
+//     };
+
+    
